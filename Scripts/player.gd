@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 # 50 is a bit fast
 @export var speed = 50
-
+@onready var animation_sprite = $AnimatedSprite2D
 
 func _physics_process(delta):
 	var direction: Vector2
@@ -15,3 +15,12 @@ func _physics_process(delta):
 	
 	var mouvment = speed * speed * direction * delta
 	move_and_collide(mouvment)
+
+func player_animations(direction : Vector2):
+	
+	if direction != Vector2.ZERO:
+		new_direction = direction
+		animation =
+		animation_sprit.play(animation)
+		
+	pass
