@@ -2,4 +2,4 @@ https://oops-i-devd.gitbook.io/christinec-dev/godot-witten-tutorials/dusty-trail
 
 https://drive.google.com/file/d/1lgP59rO2Tn5qmqy6YJ49-hs7XqqV3EKg/view
 
-Arret a  Now in our newly created
+Arret a When to use the Input Singleton vs. input() function?
